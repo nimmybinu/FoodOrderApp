@@ -1,0 +1,12 @@
+
+<body>
+    <div id="root"></div>
+</body>
+<script>
+    const header=document.createElement("h1")
+    header.innerHTML="hello"
+    const root=document.getElementById("root")
+    root.appendChild(header)
+</script>
+</html>
+

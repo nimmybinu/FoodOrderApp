@@ -1,0 +1,21 @@
+{
+  "name": "react_notes",
+  "version": "1.0.0",
+  "description": "this is my react notes",
+  "main": "App.js",
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "author": "nimmy",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
