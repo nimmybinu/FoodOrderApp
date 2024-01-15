@@ -28869,15 +28869,343 @@ if ("development" === 'production') {
 var _react = _interopRequireDefault(require("react"));
 var _client = _interopRequireDefault(require("react-dom/client"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 var heading = /*#__PURE__*/_react.default.createElement("h1", null, "hello");
 var Title = function Title() {
-  return /*#__PURE__*/_react.default.createElement("h1", null, " title");
+  return /*#__PURE__*/_react.default.createElement("a", {
+    href: "/"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "logo",
+    src: "https://img.freepik.com/free-vector/sticker-template-with-food-delivery-banner-isolated_1308-62732.jpg?w=740&t=st=1705167198~exp=1705167798~hmac=dd9057f90bcef824ee7129d25214aaa054f95080159663a38400ddb391a9d57a",
+    alt: "logo"
+  }));
 };
-var HeaderComponent = function HeaderComponent() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(Title, null), /*#__PURE__*/_react.default.createElement("h1", null, "nimmy"));
+var Header = function Header() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "header"
+  }, /*#__PURE__*/_react.default.createElement(Title, null), /*#__PURE__*/_react.default.createElement("div", {
+    className: "nav-items"
+  }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Home"), /*#__PURE__*/_react.default.createElement("li", null, "Contact"), /*#__PURE__*/_react.default.createElement("li", null, "About"), /*#__PURE__*/_react.default.createElement("li", null, "Cart"))));
+};
+var burger = [{
+  info: {
+    id: "64001",
+    name: "Chicking",
+    cloudinaryImageId: "86f52324ecee5fc94cbf63c4a568b672",
+    locality: "P T Jacob Road",
+    areaName: "Thopumpady",
+    costForTwo: "₹300 for two",
+    cuisines: ["Snacks", "Grill", "Fast Food", "American", "Pizzas", "Mexican", "Beverages"],
+    avgRating: 4.3,
+    parentId: "251",
+    avgRatingString: "4.3",
+    totalRatingsString: "5K+",
+    sla: {
+      deliveryTime: 33,
+      lastMileTravel: 1.1,
+      serviceability: "SERVICEABLE",
+      slaString: "30-35 mins",
+      lastMileTravelString: "1.1 km",
+      iconType: "ICON_TYPE_EMPTY"
+    },
+    availability: {
+      nextCloseTime: "2024-01-15 02:00:00",
+      opened: true
+    },
+    badges: {},
+    isOpen: true,
+    type: "F",
+    badgesV2: {
+      entityBadges: {
+        imageBased: {},
+        textBased: {},
+        textExtendedBadges: {}
+      }
+    },
+    aggregatedDiscountInfoV3: {
+      header: "40% OFF",
+      subHeader: "UPTO ₹80"
+    },
+    differentiatedUi: {
+      displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      differentiatedUiMediaDetails: {
+        mediaType: "ADS_MEDIA_ENUM_IMAGE",
+        lottie: {},
+        video: {}
+      }
+    },
+    reviewsSummary: {},
+    displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    restaurantOfferPresentationInfo: {}
+  },
+  analytics: {},
+  cta: {
+    link: "https://www.swiggy.com/restaurants/chicking-p-t-jacob-road-thopumpady-kochi-64001",
+    type: "WEBLINK"
+  }
+}, {
+  info: {
+    id: "233804",
+    name: "KFC",
+    cloudinaryImageId: "f01666ac73626461d7455d9c24005cd4",
+    locality: "MG Road",
+    areaName: "Ravipuram",
+    costForTwo: "₹400 for two",
+    cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+    avgRating: 4.5,
+    parentId: "547",
+    avgRatingString: "4.5",
+    totalRatingsString: "5K+",
+    sla: {
+      deliveryTime: 29,
+      lastMileTravel: 4.8,
+      serviceability: "SERVICEABLE",
+      slaString: "25-30 mins",
+      lastMileTravelString: "4.8 km",
+      iconType: "ICON_TYPE_EMPTY"
+    },
+    availability: {
+      nextCloseTime: "2024-01-14 22:57:00",
+      opened: true
+    },
+    badges: {},
+    isOpen: true,
+    type: "F",
+    badgesV2: {
+      entityBadges: {
+        imageBased: {},
+        textBased: {},
+        textExtendedBadges: {}
+      }
+    },
+    aggregatedDiscountInfoV3: {
+      header: "40% OFF",
+      subHeader: "UPTO ₹80"
+    },
+    differentiatedUi: {
+      displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      differentiatedUiMediaDetails: {
+        mediaType: "ADS_MEDIA_ENUM_IMAGE",
+        lottie: {},
+        video: {}
+      }
+    },
+    reviewsSummary: {},
+    displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    restaurantOfferPresentationInfo: {}
+  },
+  analytics: {},
+  cta: {
+    link: "https://www.swiggy.com/restaurants/kfc-mg-road-ravipuram-kochi-233804",
+    type: "WEBLINK"
+  }
+}, {
+  info: {
+    id: "67378",
+    name: "Pizza Hut",
+    cloudinaryImageId: "2b4f62d606d1b2bfba9ba9e5386fabb7",
+    locality: "MG Road",
+    areaName: "MG Road",
+    costForTwo: "₹350 for two",
+    cuisines: ["Pizzas"],
+    avgRating: 4.2,
+    parentId: "721",
+    avgRatingString: "4.2",
+    totalRatingsString: "10K+",
+    sla: {
+      deliveryTime: 39,
+      lastMileTravel: 5,
+      serviceability: "SERVICEABLE",
+      slaString: "35-40 mins",
+      lastMileTravelString: "5.0 km",
+      iconType: "ICON_TYPE_EMPTY"
+    },
+    availability: {
+      nextCloseTime: "2024-01-15 01:00:00",
+      opened: true
+    },
+    badges: {},
+    isOpen: true,
+    type: "F",
+    badgesV2: {
+      entityBadges: {
+        imageBased: {},
+        textBased: {},
+        textExtendedBadges: {}
+      }
+    },
+    aggregatedDiscountInfoV3: {
+      header: "20% OFF",
+      subHeader: "UPTO ₹50"
+    },
+    differentiatedUi: {
+      displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      differentiatedUiMediaDetails: {
+        mediaType: "ADS_MEDIA_ENUM_IMAGE",
+        lottie: {},
+        video: {}
+      }
+    },
+    reviewsSummary: {},
+    displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    restaurantOfferPresentationInfo: {}
+  },
+  analytics: {},
+  cta: {
+    link: "https://www.swiggy.com/restaurants/pizza-hut-mg-road-kochi-67378",
+    type: "WEBLINK"
+  }
+}, {
+  info: {
+    id: "57028",
+    name: "Real Arabia",
+    cloudinaryImageId: "ufkzeukq4nytfidtow5c",
+    locality: "Ravipuram",
+    areaName: "Ravipuram",
+    costForTwo: "₹300 for two",
+    cuisines: ["Arabian", "North Indian", "Chinese"],
+    avgRating: 4.2,
+    parentId: "6418",
+    avgRatingString: "4.2",
+    totalRatingsString: "5K+",
+    sla: {
+      deliveryTime: 32,
+      lastMileTravel: 4.6,
+      serviceability: "SERVICEABLE",
+      slaString: "30-35 mins",
+      lastMileTravelString: "4.6 km",
+      iconType: "ICON_TYPE_EMPTY"
+    },
+    availability: {
+      nextCloseTime: "2024-01-15 00:00:00",
+      opened: true
+    },
+    badges: {},
+    isOpen: true,
+    type: "F",
+    badgesV2: {
+      entityBadges: {
+        imageBased: {},
+        textBased: {},
+        textExtendedBadges: {}
+      }
+    },
+    aggregatedDiscountInfoV3: {
+      header: "20% OFF",
+      subHeader: "UPTO ₹50"
+    },
+    differentiatedUi: {
+      displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      differentiatedUiMediaDetails: {
+        mediaType: "ADS_MEDIA_ENUM_IMAGE",
+        lottie: {},
+        video: {}
+      }
+    },
+    reviewsSummary: {},
+    displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    restaurantOfferPresentationInfo: {}
+  },
+  analytics: {},
+  cta: {
+    link: "https://www.swiggy.com/restaurants/real-arabia-ravipuram-kochi-57028",
+    type: "WEBLINK"
+  }
+}, {
+  info: {
+    id: "403519",
+    name: "The Burger Junction",
+    cloudinaryImageId: "b79qxaca0anzkjo61my0",
+    locality: "Panampilly Nagar",
+    areaName: "Panampilly Nagar",
+    costForTwo: "₹500 for two",
+    cuisines: ["American", "Beverages"],
+    avgRating: 4.6,
+    parentId: "5433",
+    avgRatingString: "4.6",
+    totalRatingsString: "1K+",
+    sla: {
+      deliveryTime: 34,
+      lastMileTravel: 4.8,
+      serviceability: "SERVICEABLE",
+      slaString: "30-35 mins",
+      lastMileTravelString: "4.8 km",
+      iconType: "ICON_TYPE_EMPTY"
+    },
+    availability: {
+      nextCloseTime: "2024-01-15 02:00:00",
+      opened: true
+    },
+    badges: {
+      imageBadges: [{
+        imageId: "newg.png",
+        description: "Gourmet"
+      }]
+    },
+    isOpen: true,
+    aggregatedDiscountInfoV2: {},
+    type: "F",
+    badgesV2: {
+      entityBadges: {
+        imageBased: {
+          badgeObject: [{
+            attributes: {
+              description: "Gourmet",
+              imageId: "newg.png"
+            }
+          }]
+        },
+        textBased: {},
+        textExtendedBadges: {}
+      }
+    },
+    differentiatedUi: {
+      displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      differentiatedUiMediaDetails: {
+        mediaType: "ADS_MEDIA_ENUM_IMAGE",
+        lottie: {},
+        video: {}
+      }
+    },
+    reviewsSummary: {},
+    displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    restaurantOfferPresentationInfo: {}
+  },
+  analytics: {},
+  cta: {
+    link: "https://www.swiggy.com/restaurants/the-burger-junction-panampilly-nagar-kochi-403519",
+    type: "WEBLINK"
+  }
+}];
+var RestaurantCard = function RestaurantCard(_ref) {
+  var cloudinaryImageId = _ref.cloudinaryImageId,
+    name = _ref.name,
+    cuisines = _ref.cuisines,
+    avgRating = _ref.avgRating;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId,
+    alt: "card"
+  }), /*#__PURE__*/_react.default.createElement("h2", null, name), /*#__PURE__*/_react.default.createElement("h3", null, cuisines.join(", ")), /*#__PURE__*/_react.default.createElement("h4", null, avgRating, " stars"));
+};
+var Body = function Body() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "restaurant-list"
+  }, burger.map(function (resObject) {
+    return /*#__PURE__*/_react.default.createElement(RestaurantCard, _extends({}, resObject.info, {
+      key: resObject.info.id
+    }));
+  }));
+};
+var Footer = function Footer() {
+  return /*#__PURE__*/_react.default.createElement("h1", null, "Footer");
+};
+var AppLayout = function AppLayout() {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(Header, null), /*#__PURE__*/_react.default.createElement(Body, null), /*#__PURE__*/_react.default.createElement(Footer, null));
 };
 var root = _client.default.createRoot(document.getElementById("root"));
-root.render(HeaderComponent());
+root.render( /*#__PURE__*/_react.default.createElement(AppLayout, null));
 },{"react":"node_modules/react/index.js","react-dom/client":"node_modules/react-dom/client.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -28903,7 +29231,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58668" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51771" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

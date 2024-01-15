@@ -2,10 +2,9 @@
   "name": "react_notes",
   "version": "1.0.0",
   "description": "this is my react notes",
-  "main": "App.js",
   "scripts": {
-    "start":"parcel index.html",
-    "build":"parcel build index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "nimmy",

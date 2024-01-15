@@ -1,0 +1,310 @@
+export const IMG_URL="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
+
+export const restaurantList = [
+    {
+      info: {
+        id: "64001",
+        name: "Chicking",
+        cloudinaryImageId: "86f52324ecee5fc94cbf63c4a568b672",
+        locality: "P T Jacob Road",
+        areaName: "Thopumpady",
+        costForTwo: "₹300 for two",
+        cuisines: [
+          "Snacks",
+          "Grill",
+          "Fast Food",
+          "American",
+          "Pizzas",
+          "Mexican",
+          "Beverages",
+        ],
+        avgRating: 4.3,
+        parentId: "251",
+        avgRatingString: "4.3",
+        totalRatingsString: "5K+",
+        sla: {
+          deliveryTime: 33,
+          lastMileTravel: 1.1,
+          serviceability: "SERVICEABLE",
+          slaString: "30-35 mins",
+          lastMileTravelString: "1.1 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-01-15 02:00:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "40% OFF",
+          subHeader: "UPTO ₹80",
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {},
+      cta: {
+        link: "https://www.swiggy.com/restaurants/chicking-p-t-jacob-road-thopumpady-kochi-64001",
+        type: "WEBLINK",
+      },
+    },
+    {
+      info: {
+        id: "233804",
+        name: "KFC",
+        cloudinaryImageId: "f01666ac73626461d7455d9c24005cd4",
+        locality: "MG Road",
+        areaName: "Ravipuram",
+        costForTwo: "₹400 for two",
+        cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+        avgRating: 4.5,
+        parentId: "547",
+        avgRatingString: "4.5",
+        totalRatingsString: "5K+",
+        sla: {
+          deliveryTime: 29,
+          lastMileTravel: 4.8,
+          serviceability: "SERVICEABLE",
+          slaString: "25-30 mins",
+          lastMileTravelString: "4.8 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-01-14 22:57:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "40% OFF",
+          subHeader: "UPTO ₹80",
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {},
+      cta: {
+        link: "https://www.swiggy.com/restaurants/kfc-mg-road-ravipuram-kochi-233804",
+        type: "WEBLINK",
+      },
+    },
+    {
+      info: {
+        id: "67378",
+        name: "Pizza Hut",
+        cloudinaryImageId: "2b4f62d606d1b2bfba9ba9e5386fabb7",
+        locality: "MG Road",
+        areaName: "MG Road",
+        costForTwo: "₹350 for two",
+        cuisines: ["Pizzas"],
+        avgRating: 4.2,
+        parentId: "721",
+        avgRatingString: "4.2",
+        totalRatingsString: "10K+",
+        sla: {
+          deliveryTime: 39,
+          lastMileTravel: 5,
+          serviceability: "SERVICEABLE",
+          slaString: "35-40 mins",
+          lastMileTravelString: "5.0 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-01-15 01:00:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "20% OFF",
+          subHeader: "UPTO ₹50",
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {},
+      cta: {
+        link: "https://www.swiggy.com/restaurants/pizza-hut-mg-road-kochi-67378",
+        type: "WEBLINK",
+      },
+    },
+    {
+      info: {
+        id: "57028",
+        name: "Real Arabia",
+        cloudinaryImageId: "ufkzeukq4nytfidtow5c",
+        locality: "Ravipuram",
+        areaName: "Ravipuram",
+        costForTwo: "₹300 for two",
+        cuisines: ["Arabian", "North Indian", "Chinese"],
+        avgRating: 4.2,
+        parentId: "6418",
+        avgRatingString: "4.2",
+        totalRatingsString: "5K+",
+        sla: {
+          deliveryTime: 32,
+          lastMileTravel: 4.6,
+          serviceability: "SERVICEABLE",
+          slaString: "30-35 mins",
+          lastMileTravelString: "4.6 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-01-15 00:00:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "20% OFF",
+          subHeader: "UPTO ₹50",
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {},
+      cta: {
+        link: "https://www.swiggy.com/restaurants/real-arabia-ravipuram-kochi-57028",
+        type: "WEBLINK",
+      },
+    },
+    {
+      info: {
+        id: "403519",
+        name: "The Burger Junction",
+        cloudinaryImageId: "b79qxaca0anzkjo61my0",
+        locality: "Panampilly Nagar",
+        areaName: "Panampilly Nagar",
+        costForTwo: "₹500 for two",
+        cuisines: ["American", "Beverages"],
+        avgRating: 4.6,
+        parentId: "5433",
+        avgRatingString: "4.6",
+        totalRatingsString: "1K+",
+        sla: {
+          deliveryTime: 34,
+          lastMileTravel: 4.8,
+          serviceability: "SERVICEABLE",
+          slaString: "30-35 mins",
+          lastMileTravelString: "4.8 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-01-15 02:00:00",
+          opened: true,
+        },
+        badges: {
+          imageBadges: [
+            {
+              imageId: "newg.png",
+              description: "Gourmet",
+            },
+          ],
+        },
+        isOpen: true,
+        aggregatedDiscountInfoV2: {},
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {
+              badgeObject: [
+                {
+                  attributes: {
+                    description: "Gourmet",
+                    imageId: "newg.png",
+                  },
+                },
+              ],
+            },
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {},
+      cta: {
+        link: "https://www.swiggy.com/restaurants/the-burger-junction-panampilly-nagar-kochi-403519",
+        type: "WEBLINK",
+      },
+    },
+  ];
