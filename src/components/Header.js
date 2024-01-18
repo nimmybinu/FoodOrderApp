@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 const Title = () => (
   <a href="/">
     <img
@@ -9,20 +10,31 @@ const Title = () => (
   </a>
 );
 const Header = () => {
-  let title = "welcome";
+  const [isLogin, setIsLogin] = useState(false);
   return (
     <div className="header">
       <Title />
-      <h1>{title}</h1>
-      <button onClick={()=>{title=="new title" ;console.log("kkkk")}}>click</button>
+      {/* <h1>{title}</h1>
+      <button onClick={()=>{title=="new title" ;console.log("kkkk")}}>click</button> */}
       <div className="nav-items">
         <ul>
-          <li>Home</li>
-          <li>Contact</li>
-          <li>About</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
           <li>Cart</li>
         </ul>
       </div>
+      {isLogin ? (
+        <button onClick={() => setIsLogin(false)}>Logout</button>
+      ) : (
+        <button onClick={() => setIsLogin(true)}>Login</button>
+      )}
     </div>
   );
 };
